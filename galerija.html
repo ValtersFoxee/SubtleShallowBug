@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija - Paklāja tīrītāji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <div class="logo">Paklāja tīrītāji</div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-btn">Sākums</a>
+                <a href="galerija.html" class="nav-btn active">Galerija</a>
+                <a href="pierakstities.html" class="nav-btn">Pierakstīties</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="gallery" class="section">
+            <h1>Mūsu darbi</h1>
+            <div class="gallery-container">
+                <div class="gallery-view">
+                    <img id="currentImage" src="https://media.istockphoto.com/id/1077961262/photo/turkish-karaman-carpet.jpg?s=2048x2048&w=is&k=20&c=rB0f4NZowVGm86TKdYK5GgY-FSc9odHWdIOZeT8zhi8">
+                    <button class="prev" onclick="prevImage()">&#10094;</button>
+                    <button class="next" onclick="nextImage()">&#10095;</button>
+                </div>
+                <div class="thumbnails">
+                    <img src="https://media.istockphoto.com/id/1077961262/photo/turkish-karaman-carpet.jpg?s=2048x2048&w=is&k=20&c=rB0f4NZowVGm86TKdYK5GgY-FSc9odHWdIOZeT8zhi8=" onclick="showImage(0)" alt="Thumbnail 1">
+                    <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf" onclick="showImage(1)" alt="Thumbnail 2">
+                    <img src="https://images.pexels.com/photos/4176235/pexels-photo-4176235.jpeg?auto=compress&cs=tinysrgb&w=600" onclick="showImage(2)" alt="Thumbnail 3">
+                    <img src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50" onclick="showImage(3)" alt="Thumbnail 4">
+                    <img src=""
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Kontakti</h3>
+                <p>Tālr.: +371 12345678</p>
+                <p>E-pasts: info@paklajutiritaji.lv</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
